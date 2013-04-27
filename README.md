@@ -4,12 +4,35 @@ Many websites are overloaded with features. This effectively makes them less
 usable. This project aims on providing templates for stripping websites down 
 to the most necessary stuff.
 
+The templates are for the [Privoxy](http://www.privoxy.org/) web proxy.
+
+
+# Installation
+
+Install Privoxy. For Ubuntu e.g.:
+
+	# install privoxy
+	$ sudo apt-get install privoxy
+
+Clone the repo
+
+	$ git clone https://github.com/cmichi/minimalistic-web.git 
+
+and append to `/etc/privoxy/config`:
+
+	actionsfile /path-to-repo/minimalistic.action
+	filterfile /path-to-repo/minimalistic.filter
+
+And at last restart Privoxy:
+
+	$ sudo /etc/init.d/privoxy restart
+
 
 # License
 
 This project is licensed under MIT:
 
-	Copyright (c) 2011 Michael Müller, <http://micha.elmueller.net/>
+	Copyright (c) 2013 Michael Mueller, <http://micha.elmueller.net/>
 	
 	Permission is hereby granted, free of charge, to any person obtaining
 	a copy of this software and associated documentation files (the
