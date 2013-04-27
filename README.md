@@ -6,7 +6,8 @@ to the most necessary stuff.
 
 The templates are for the [Privoxy](http://www.privoxy.org/) web proxy.
 
-__Note__: Templates are not executed for websites you access over HTTPS!
+__Note__: Templates are not executed for websites you access over HTTPS
+and the templates are designed using an AdBlock Browser Addon!
 
 
 # ToDo 
@@ -20,6 +21,8 @@ Install Privoxy. For Ubuntu e.g.:
 
 	# install privoxy
 	$ sudo apt-get install privoxy
+
+Install an [AdBlock Browser Addon](http://adblockplus.org/de/firefox)! 
 
 Clone the repo
 
