@@ -85,7 +85,8 @@ float:left !important;}\n\
 \#spWrapper {width:100% !important; min-width:0px !important;}\n\
 \#spArticleFunctions {float:right !important; overflow:show; margin-right:0px;}\n\
 \#spArticleFunctions h2 {margin-top:9px !important;}\n\
-\#spContentWrapper {width:100% !important;}\n\
+\#spContentWrapper {width:100% !important; padding: 0px !important;}\n\
+\.spCenteredPage #spContentWrapper {padding: 0px !important;}\n\
 \#spHeader {width:100% !important; height:65px !important;}\n\
 \#spChannel, \#spChannel ul {width:100% !important;display:none; \
 position:absolute !important; \
@@ -103,6 +104,7 @@ h1 {line-height:12px !important;}\n\
 \#spContainer {width:100% !important; padding: 0px 0px 0px 0px !important}\n\
 \#spHeaderColoured {height:100% !important; }\n\
 \#spChannelName {margin-top:0px !important; }\n\
+.spCenteredPage \#spContentWrapper:after {background: none;}\n\
 \#spArticleFunctionsBottom, \#spSocialBookmark,\n\
 \#spPageFooterWrapper,\n\
 \#spBreadcrumb,\n\
@@ -115,7 +117,7 @@ h1 {line-height:12px !important;}\n\
 \#spArticleFunctions ul,\n\
 label, input[type=radio],\n\
 .spCommunityBox, .spArticleCredit, .spArticleNewsfeedBox,\n\
-.spTopicMultimedia ,\#spSmallTeaserColumn {display:none;}\n\
+.spTopicMultimedia ,\#spSmallTeaserColumn, \#spOasTop {display:none;}\n\
 </style>\n$0@
 s@class="spTopThema"@class="spTopThema" style="width:100%"@g
 s@class="spRessortTeaserBox@style="width:100%" class="spRessortTeaserBox@g
@@ -138,7 +140,8 @@ body {background:\#fff !important;}\n\
 div#simpleSearch input#searchInput {width:10em !important;}\n\
 \#left-navigation {left:1em  !important; top:0.2em !important;}\n\
 \#p-namespaces {}\n\
-\#content {margin-left:0px !important; margin-top:2.2em !important;}\n\
+\#content {margin-left:0px !important; margin-top:2.2em !important; \
+border: none !important;}\n\
 \#searchBody, \#p-logo, \#siteNotice {display:none;}\n\
 .portlet {display:none !important;}\n</style>\n$0@
 
@@ -159,7 +162,6 @@ s@</head>@<style type="text/css">\n\
 \#header fieldset {padding-top: 15px; }\n\
 \#header, \#footer {width:100% !important;}\n\
 \#screen {width:90% !important;}\n\
-\#index-promo {width:800px !important;}\n\
 .dh1 {top: 19px!important;}\n\
 </style>\n$0@
 s@http://golem.ivwbox.de/cgi-bin/ivw/CP/G_WIRTSCHAFT?d=1343755271"@http://golem.ivwbox.de/cgi-bin/ivw/CP/G_WIRTSCHAFT?d=1343755271" style="display:none;"@g
