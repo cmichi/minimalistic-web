@@ -14,14 +14,14 @@ Install Privoxy. For Ubuntu e.g.:
 	# install privoxy
 	$ sudo apt-get install privoxy
 
-Then:
+Clone the repo
 
 	$ git clone https://github.com/cmichi/minimalistic-web.git 
 
-	# append to /etc/privoxy/config:
-	# actionsfile /path-to-repo/minimalistic.action
-	# filterfile /path-to-repo/minimalistic.filter
-	$ sudo /bin/sh -c "echo \"actionsfile /path-to-repo/minimalistic.action \nfilterfile /path-to-repo/minimalistic.filter\" >> /etc/privoxy/config" 
+and append to `/etc/privoxy/config`:
+
+	actionsfile /path-to-repo/minimalistic.action
+	filterfile /path-to-repo/minimalistic.filter
 
 And at last restart Privoxy:
 
