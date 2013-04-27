@@ -104,7 +104,11 @@ h1 {line-height:12px !important;}\n\
 \#spContainer {width:100% !important; padding: 0px 0px 0px 0px !important}\n\
 \#spHeaderColoured {height:100% !important; }\n\
 \#spChannelName {margin-top:0px !important; }\n\
-.spCenteredPage \#spContentWrapper:after {background: none;}\n\
+\#spContainer  {background: none !important;}\n\
+\#spContentWrapper:after {background: none !important;}\n\
+\#spContentWrapper {background: none !important;}\n\
+\#spIntroTeaser {text-align: center;}\n\
+.spArticleHeadlines, .spAuthor {margin-left: 20px;}\n\
 \#spArticleFunctionsBottom, \#spSocialBookmark,\n\
 \#spPageFooterWrapper,\n\
 \#spBreadcrumb,\n\
