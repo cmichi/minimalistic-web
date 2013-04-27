@@ -6,6 +6,13 @@ to the most necessary stuff.
 
 The templates are for the [Privoxy](http://www.privoxy.org/) web proxy.
 
+__Note__: Templates are not executed for websites you access over HTTPS!
+
+
+# ToDo 
+
+ * create gallery/showcase of berfore/after templating of websites
+
 
 # Installation
 
@@ -26,6 +33,13 @@ and append to `/etc/privoxy/config`:
 And at last restart Privoxy:
 
 	$ sudo /etc/init.d/privoxy restart
+
+
+# Supported Sites
+
+ * spiegel.de
+ * golem.de
+ * MediaWiki
 
 
 # License

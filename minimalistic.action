@@ -9,11 +9,3 @@
 #{ golem }
 { +filter{golem} }
 *.golem.de
-
-{ +redirect{s@^http://duckduckgo.com/\?q=%21bintube\+@https://bintube.com/search/\?b=50\&r=200\&cs=1\&opt=1\&q=@} }
-duckduckgo.com/\?q=%21bintube\+
-
-{ +redirect{s@^http://duckduckgo.com/\?q=%21wiki\+@http://en.wikipedia.org/wiki/@} }
-duckduckgo.com/\?q=%21wiki\+
-
-
