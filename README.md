@@ -4,23 +4,15 @@ Many websites are overloaded with features. This effectively makes them less
 usable. This project aims on providing templates for stripping websites down 
 to the most necessary stuff.
 
-The templates are for the [Privoxy](http://www.privoxy.org/) web proxy.
+The templates are designed for the [Privoxy](http://www.privoxy.org/) web proxy.
 
 __Note__: Templates are not executed for websites you access over HTTPS
-and the templates are designed using an AdBlock Browser Addon!
-
-
-# ToDo 
-
- * create gallery/showcase of berfore/after templating of websites
+and the templates are designed to be used in conjunciton with an AdBlock Browser Addon!
 
 
 # Installation
 
-Install Privoxy. For Ubuntu e.g.:
-
-	# install privoxy
-	$ sudo apt-get install privoxy
+Install Privoxy. For Ubuntu e.g. `$ sudo apt-get install privoxy`.
 
 Install an [AdBlock Browser Addon](http://adblockplus.org/de/firefox)! 
 
@@ -28,21 +20,27 @@ Clone the repo
 
 	$ git clone https://github.com/cmichi/minimalistic-web.git 
 
-and append to `/etc/privoxy/config`:
+Append to `/etc/privoxy/config`:
 
 	actionsfile /path-to-repo/minimalistic.action
 	filterfile /path-to-repo/minimalistic.filter
 
-And at last restart Privoxy:
+At last restart Privoxy:
 
 	$ sudo /etc/init.d/privoxy restart
 
 
-# Supported Sites
+# Supported Sites so far
 
  * spiegel.de
  * golem.de
  * MediaWiki
+
+
+# ToDo 
+
+ * create gallery/showcase of berfore/after templating of websites
+ * Ideas for sites to "redesign": ...
 
 
 # License

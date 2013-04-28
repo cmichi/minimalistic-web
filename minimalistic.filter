@@ -119,9 +119,10 @@ h1 {line-height:12px !important;}\n\
 #  \#spChannelName,\n\
 \#spTopicHeader,\n\
 \#spArticleFunctions ul,\n\
+\#spTopPoster,\n\
 label, input[type=radio],\n\
 .spCommunityBox, .spArticleCredit, .spArticleNewsfeedBox,\n\
-.spTopicMultimedia ,\#spSmallTeaserColumn, \#spOasTop {display:none;}\n\
+.spTopicMultimedia ,\#spSmallTeaserColumn, \#spOasTop {display:none !important;}\n\
 </style>\n$0@
 s@class="spTopThema"@class="spTopThema" style="width:100%"@g
 s@class="spRessortTeaserBox@style="width:100%" class="spRessortTeaserBox@g
