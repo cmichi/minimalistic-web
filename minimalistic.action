@@ -1,6 +1,7 @@
 # minimalistic web
 { +filter{mediawiki} }
 *.wikipedia.org
+wiki.openstreetmap.org
 
 #{ spiegel }
 { +filter{spiegel} }

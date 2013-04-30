@@ -107,7 +107,8 @@ h1 {line-height:12px !important;}\n\
 \#spContainer  {background: none !important;}\n\
 \#spContentWrapper:after {background: none !important;}\n\
 \#spContentWrapper {background: none !important;}\n\
-\#spIntroTeaser {text-align: center;}\n\
+\#spIntroTeaser {text-align: center; margin: 0px 25px 0px 25px; }\n\
+\#spImageButtons {left: 8%;}\n\
 .spArticleHeadlines, .spAuthor {margin-left: 20px;}\n\
 \#spArticleFunctionsBottom, \#spSocialBookmark,\n\
 \#spPageFooterWrapper,\n\
@@ -123,6 +124,7 @@ h1 {line-height:12px !important;}\n\
 label, input[type=radio],\n\
 .spCommunityBox, .spArticleCredit, .spArticleNewsfeedBox,\n\
 .spTopicMultimedia ,\#spSmallTeaserColumn, \#spOasTop {display:none !important;}\n\
+.spCenteredPage \#spOasTop, .spCenteredPage \#spWrapper, .spCenteredPage \#spPageFooterWrapper { margin: 0px !important; }\n\
 </style>\n$0@
 s@class="spTopThema"@class="spTopThema" style="width:100%"@g
 s@class="spRessortTeaserBox@style="width:100%" class="spRessortTeaserBox@g
@@ -165,9 +167,11 @@ s@</head>@<style type="text/css">\n\
 \#grandwrapper {width: 100% !important;}\n\
 \#header {border: none !important; height:80px !important; }\n\
 \#header fieldset {padding-top: 15px; }\n\
+.index \#index-promo {width: auto !important;}\n\
 \#header, \#footer {width:100% !important;}\n\
 \#screen {width:90% !important;}\n\
 .dh1 {top: 19px!important;}\n\
+.iqadcenter {display: none;}\n\
 </style>\n$0@
 s@http://golem.ivwbox.de/cgi-bin/ivw/CP/G_WIRTSCHAFT?d=1343755271"@http://golem.ivwbox.de/cgi-bin/ivw/CP/G_WIRTSCHAFT?d=1343755271" style="display:none;"@g
 s@WIDTH=\\"1\\" HEIGHT=\\"1\\"@WIDTH=\\"1\\" HEIGHT=\\"1\\" STYLE=\\"display:none\\"@g
