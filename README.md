@@ -16,18 +16,15 @@ Install Privoxy. For Ubuntu e.g. `$ sudo apt-get install privoxy`.
 
 Install an [AdBlock Browser Addon](http://adblockplus.org/de/firefox)! 
 
-Clone the repo
-
-	$ git clone https://github.com/cmichi/minimalistic-web.git 
+Clone the repo `$ git clone https://github.com/cmichi/minimalistic-web.git`.
 
 Append to `/etc/privoxy/config`:
 
 	actionsfile /path-to-repo/minimalistic.action
 	filterfile /path-to-repo/minimalistic.filter
 
-At last restart Privoxy:
-
-	$ sudo /etc/init.d/privoxy restart
+Restart Privoxy `$ sudo /etc/init.d/privoxy restart` (Ubuntu) and be sure
+your browser is configured to use the proxy. Et voilà!
 
 
 # Supported Sites so far
@@ -40,7 +37,7 @@ At last restart Privoxy:
 # ToDo 
 
  * create gallery/showcase of berfore/after templating of websites
- * Ideas for sites to "redesign": ...
+ * Ideas for sites to "redesign": soup.io fullscreen view, wetter.de
 
 
 # License
