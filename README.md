@@ -12,7 +12,7 @@ and the templates are designed to be used in conjunciton with an AdBlock Browser
 
 # Installation
 
-Install Privoxy. For Ubuntu e.g. `$ sudo apt-get install privoxy`.
+Install and configure Privoxy. For Ubuntu e.g. `$ sudo apt-get install privoxy`.
 
 Install an [AdBlock Browser Addon](http://adblockplus.org/de/firefox)! 
 
@@ -23,7 +23,7 @@ Append to `/etc/privoxy/config`:
 	actionsfile /path-to-repo/minimalistic.action
 	filterfile /path-to-repo/minimalistic.filter
 
-Restart Privoxy `$ sudo /etc/init.d/privoxy restart` (Ubuntu) and be sure
+Restart Privoxy `$ sudo /etc/init.d/privoxy restart` (Ubuntu) and make sure
 your browser is configured to use the proxy. Et voilà!
 
 
