@@ -31,6 +31,7 @@ your browser is configured to use the proxy. Et voilà!
 
  * spiegel.de
  * golem.de
+ * zeit.de
  * MediaWiki
 
 

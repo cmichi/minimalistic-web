@@ -10,3 +10,7 @@ wiki.openstreetmap.org
 #{ golem }
 { +filter{golem} }
 *.golem.de
+
+#{ zeit }
+{ +filter{zeit} }
+*.zeit.de

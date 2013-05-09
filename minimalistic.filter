@@ -176,3 +176,18 @@ s@</head>@<style type="text/css">\n\
 s@http://golem.ivwbox.de/cgi-bin/ivw/CP/G_WIRTSCHAFT?d=1343755271"@http://golem.ivwbox.de/cgi-bin/ivw/CP/G_WIRTSCHAFT?d=1343755271" style="display:none;"@g
 s@WIDTH=\\"1\\" HEIGHT=\\"1\\"@WIDTH=\\"1\\" HEIGHT=\\"1\\" STYLE=\\"display:none\\"@g
 
+
+#########################
+## filter zeit.de
+##########################
+FILTER: zeit Filter for zeit
+s@</head>@<style type="text/css">\n\
+.outerspace {width: 100% !important;}\n\
+\#header {width: auto !important;}\n\
+.innerspace {width: auto !important;}\n\
+\#informatives {width: 25% !important; float: right !important;}\n\
+\#main {width: 73% !important; margin: 0px !important;}\n\
+.innerteaser {width: 70% !important; }\n\
+.anzeige {display: none !important; }\n\
+</style>\n$0@
+
