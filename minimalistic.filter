@@ -188,6 +188,11 @@ s@</head>@<style type="text/css">\n\
 \#informatives {width: 25% !important; float: right !important;}\n\
 \#main {width: 73% !important; margin: 0px !important;}\n\
 .innerteaser {width: 70% !important; }\n\
-.anzeige {display: none !important; }\n\
+.module.service, .module.fullimage, \#recentActivity, .module.fullimage, \n\
+\#iqadtile7, \#vp_1, .vid_rotator, .anzeige, .teaserlist .teaser .shortteaserlist, \n\
+\#services, \#service_newsticker, \#bottom,\n\
+.topnav3, .nav {display: none !important; }\n\
+.lead.teaser.first img {width: 400px !important; height: auto !important; \n\
+float: left !important; margin-right: 10px;}\n\
 </style>\n$0@
 
