@@ -3,13 +3,18 @@
 Many websites are overloaded with features. This effectively makes them less 
 usable. This project aims on providing templates for stripping websites down 
 to the most necessary stuff.
-I have written an (illustrated) description of the concept down 
+I have written a description of the concept down 
 [here](http://micha.elmueller.net/2013/04/the-aesthetics-of-simplicity/).
 
-The templates are designed for the [Privoxy](http://www.privoxy.org/) web proxy.
+Before/After screenshots are posted on this tumblr: 
+[minimalistic-web.tumblr.com](http://minimalistic-web.tumblr.com).
 
-__Note__: Templates are not executed for websites you access over HTTPS
-and the templates are designed to be used in conjunciton with an AdBlock Browser Addon!
+
+__Note__: The templates 
+
+ * are designed for the [Privoxy](http://www.privoxy.org/) web proxy
+ * are not executed for websites you access over HTTPS
+ * are designed to be used in conjunciton with an AdBlock Browser Addon
 
 
 # Installation
