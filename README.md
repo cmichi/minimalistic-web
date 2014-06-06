@@ -42,10 +42,11 @@ a subdirectory of /etc/privoxy/.
 
 # Supported Sites so far
 
+ * MediaWiki: you need to add the URI of the Wiki to `minimalistic.action`,
+   german and english Wikipedia are there as a default.
  * spiegel.de
  * golem.de
  * ~~zeit.de~~ (zeit stylesheet was changed in the meantime, needs rework)
- * MediaWiki
 
 
 # ToDo 
