@@ -81,10 +81,12 @@
 #.clearfix {display: none !important;}
 #.grid-homepage .column-wide  {width:auto !important; background:none !important;};
 #.asset-box, .module-box, clearfix:after, 
+#.article-intro {text-align:center;margin:15px auto;width:800px;}\n\
+#.article-intro {text-align:left;margin:15px auto;}\n\
 
 FILTER: spiegel Filter for spiegel
 s@</head>@<style type="text/css">\n\
-body {padding:0px;}\n\
+body {padding:0px;font-size:11px;}\n\
 .nav-service, .nav-extra, \#spColumnAd, .nav-main, .module-box, \n\
 .nav-channel, .top-poster, \#breadcrumb, .commonpager, \n\
 .login-links, \#spOasTop, .header-search, .hpheftkasten, \n\
@@ -104,12 +106,15 @@ body {padding:0px;}\n\
 .search-options {display:none !important;};\n\
 .column-width {background-image:none !important;}\n\
 \#js-column-dynamic-ref {background-image:none !important;}\n\
+.article-intro {text-align:left;margin:15px auto;}\n\
 \n\
 .grid-article .column-both {text-align:center;width: auto;}\n\
-.article-intro {text-align:center;margin:15px auto;width:800px;}\n\
+.spArticleContent .article-intro {text-align:left;margin:0px;padding:15px;}\n\
 .grid-article .column-wide {width:auto;padding:10px;}\n\
 .column-both {width:auto !important;}\n\
 .author {text-align:center;}\n\
+.asset-credit {display:none}\n\
+.article-image-description {padding-top:9px;}\n\
 .spTopicMultimedia, .spArticleContent .column-small,.top-anchor, \#spVeeseo {display:none;}\n\
 \#footer,  .module-box, .article-copyright, \n\
 .fussball, .spDivideNaviAd {display:none;}\n\
@@ -128,14 +133,26 @@ body {padding:0px;}\n\
 #########################
 ## filter mediawiki #
 ##########################
+#\#mw-panel,
+#.interwiki-en {position:absolute; left: 10em; top:0.4em !important;display:block;z-index:999;}\n\
 FILTER: mediawiki Filter for wikipedia
 s@</head>@<style type="text/css">\n\
 body {background:\#fff !important;}\n\
-\#mw-page-base, \#mw-panel, \#p-personal {display:none;}\n\
-\#p-views, \#p-cactions {display:none;}\n\
+\#mw-page-base,  \#p-personal {display:none;}\n\
+\#p-logo, \#p-navigation, \#p-Mitmachen,\n\
+\#p-tb, \#p-coll-print_export, \#p-interaction,\n\
+\#p-views, \#p-cactions, .wbc-editpage {display:none;}\n\
+.uls-settings-trigger, .topicon {display:none !important;}\n\
+.tright {margin-top:0px !important;}\n\
+.float-right {margin-top:0px !important;}\n\
+\#footer {margin-left:0.4em !important;}\n\
+\#p-lang {padding:0.25em !important;font-size:0.9em !important;}\n\
+\#mw-panel {position:static !important;width:auto !important;}\n\
+\#p-lang li {float:left; padding:0px 10px 0px 0px !important;}\n\
+div#mw-panel div.portal div.body {margin:0px 0px 0px 1.25em}\n\
 \#p-search {position:absolute;top:0.4em; right: 0.4em;}\n\
 div#simpleSearch input#searchInput {width:10em !important;}\n\
-\#left-navigation {left:1em  !important; top:0.2em !important;}\n\
+\#left-navigation {left:1.7em  !important; top:0.4em !important;position:absolute;margin:0px !important;}\n\
 \#p-namespaces {}\n\
 \#content {margin-left:0px !important; margin-top:2.2em !important; \
 border: none !important;}\n\
