@@ -21,7 +21,10 @@ __Note__: The templates
 
 Install and configure Privoxy. For Ubuntu e.g. `$ sudo apt-get install privoxy`.
 
-Install an [AdBlock Browser Addon](http://adblockplus.org/de/firefox)! 
+Install AdBlock, either as an 
+[AdBlock Browser Addon](http://adblockplus.org/de/firefox) or as templates
+for Privoxy (I followed the instructions provided
+[here](https://github.com/skroll/privoxy-adblock)).
 
 Clone the repo `$ git clone https://github.com/cmichi/minimalistic-web.git`.
 
@@ -33,12 +36,15 @@ Append to `/etc/privoxy/config`:
 Restart Privoxy `$ sudo /etc/init.d/privoxy restart` (Ubuntu) and make sure
 your browser is configured to use the proxy. Et voilà!
 
+In case of the templates not being loaded you might have to move them into
+a subdirectory of /etc/privoxy/.
+
 
 # Supported Sites so far
 
  * spiegel.de
  * golem.de
- * zeit.de
+ * ~~zeit.de~~ (zeit stylesheet was changed in the meantime, needs rework)
  * MediaWiki
 
 
@@ -52,7 +58,9 @@ your browser is configured to use the proxy. Et voilà!
 
 This project is licensed under MIT:
 
-	Copyright (c) 2013 Michael Mueller, <http://micha.elmueller.net/>
+	Copyright (c) 2013-2014 
+
+		Michael Mueller, <http://micha.elmueller.net/>
 	
 	Permission is hereby granted, free of charge, to any person obtaining
 	a copy of this software and associated documentation files (the
