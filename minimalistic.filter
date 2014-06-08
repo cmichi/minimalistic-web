@@ -83,10 +83,11 @@
 #.asset-box, .module-box, clearfix:after, 
 #.article-intro {text-align:center;margin:15px auto;width:800px;}\n\
 #.article-intro {text-align:left;margin:15px auto;}\n\
+#border-top:3px double #E6E6E6;padding-top:10px !important;
 
 FILTER: spiegel Filter for spiegel
 s@</head>@<style type="text/css">\n\
-body {padding:0px;font-size:11px;}\n\
+body {padding:0px;font-size:12px !important;}\n\
 .nav-service, .nav-extra, \#spColumnAd, .nav-main, .module-box, \n\
 .nav-channel, .top-poster, \#breadcrumb, .commonpager, \n\
 .login-links, \#spOasTop, .header-search, .hpheftkasten, \n\
@@ -101,15 +102,16 @@ body {padding:0px;font-size:11px;}\n\
 .grid-homepage .teaser.hp-first-article.pano_xxl_old, .article-title {text-align:center;border:none;};\n\
 .breitwandaufmacher {width:auto;}\n\
 .hp-first-article .headline-intro {padding-top:20px;}\n\
-.grid-homepage .hp-teasers-box {width:80%;margin:auto;}\n\
+.grid-homepage .hp-teasers-box {width:80%;margin:auto; border-top:3px double \#e6e6e6;padding-top:16px;}\n\
 .hp-first-article, .hp-teasers-box {border-bottom:none !important;};\n\
 .search-options {display:none !important;};\n\
 .column-width {background-image:none !important;}\n\
 \#js-column-dynamic-ref {background-image:none !important;}\n\
 .article-intro {text-align:left;margin:15px auto;}\n\
+\#home .article-intro {width:860px;}\n\
 \n\
 .grid-article .column-both {text-align:center;width: auto;}\n\
-.spArticleContent .article-intro {text-align:left;margin:0px;padding:15px;}\n\
+.spArticleContent .article-intro {text-align:left;margin:0px;padding:10px;}\n\
 .grid-article .column-wide {width:auto;padding:10px;}\n\
 .column-both {width:auto !important;}\n\
 .author {text-align:center;}\n\
@@ -119,6 +121,9 @@ body {padding:0px;font-size:11px;}\n\
 \#footer,  .module-box, .article-copyright, \n\
 .fussball, .spDivideNaviAd {display:none;}\n\
 .spArticleContent .asset-list-box {display:none;}\n\
+.spArticleContent \#js-article-column {margin-top:-20px;}\n\
+\n\
+.grid-homepage .teaser.hp-first-article {width:860px !important;margin:auto !important;border-bottom:3px double #E6E6E6;}\n\
 </style>\n$0@
 
 #s@class="spTopThema"@class="spTopThema" style="width:100%"@g
