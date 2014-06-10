@@ -84,6 +84,7 @@
 #.article-intro {text-align:center;margin:15px auto;width:800px;}\n\
 #.article-intro {text-align:left;margin:15px auto;}\n\
 #border-top:3px double #E6E6E6;padding-top:10px !important;
+#\#home .article-intro {width:860px;}\n\
 
 FILTER: spiegel Filter for spiegel
 s@</head>@<style type="text/css">\n\
@@ -108,7 +109,6 @@ body {padding:0px;font-size:12px !important;}\n\
 .column-width {background-image:none !important;}\n\
 \#js-column-dynamic-ref {background-image:none !important;}\n\
 .article-intro {text-align:left;margin:15px auto;}\n\
-\#home .article-intro {width:860px;}\n\
 \n\
 .grid-article .column-both {text-align:center;width: auto;}\n\
 .spArticleContent .article-intro {text-align:left;margin:0px;padding:10px;}\n\
