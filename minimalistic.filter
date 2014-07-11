@@ -95,7 +95,7 @@ body {padding:0px;font-size:12px !important;line-height:1.3em !important;}\n\
 .ressort-teaser-box, .ressort-teaser-box-header, \n\
 .boersenboxhp, .hpheftkasten, \#GamesPortBar110282, .video-forum-bracket,\n\
 .asset-augenblick, .asset-mixed-imagetypes, .asset-hp-special, \n\
-.fbtickerboxhp \n\
+.fbtickerboxhp, .warning-yellow \n\
 {display:none !important;}\n\
 \#wrapper {margin:0px;min-width:0px !important;max-width:none !important;}\n\
 \#content-main {padding:0px !important;width:auto;}\n\
@@ -104,12 +104,13 @@ body {padding:0px;font-size:12px !important;line-height:1.3em !important;}\n\
 .grid-homepage .teaser.hp-first-article.pano_xxl_old, .article-title {text-align:center;border:none;};\n\
 .breitwandaufmacher {width:auto;}\n\
 .hp-first-article .headline-intro {padding-top:20px;}\n\
-.grid-homepage .hp-teasers-box {width:80%;margin:auto; border-top:3px double \#e6e6e6;padding-top:16px;}\n\
+.grid-homepage .hp-teasers-box {width:80%;margin:auto; border-top:0px double \#e6e6e6;padding-top:16px;}\n\
 .hp-first-article, .hp-teasers-box {border-bottom:none !important;};\n\
-.search-options {display:none !important;};\n\
+, .fbtickerboxhp, .search-options {display:none !important;};\n\
 .column-width {background-image:none !important;}\n\
 \#js-column-dynamic-ref {background-image:none !important;}\n\
 .article-intro {text-align:left;margin:15px auto;}\n\
+.channel-name {margin-top:25px !important;font-size:16px !important;display:none !important;}\n\
 \n\
 .grid-article .column-both {text-align:center;width: auto;}\n\
 .spArticleContent .article-intro {text-align:left;margin:0px;padding:10px;}\n\
@@ -117,15 +118,18 @@ body {padding:0px;font-size:12px !important;line-height:1.3em !important;}\n\
 .column-both {width:auto !important;}\n\
 .author {text-align:center;}\n\
 .asset-credit {display:none}\n\
+\#content-main {font-size:18px;}\n\
+\#home \#content-main {font-size:13px;}\n\
 .article-image-description {padding-top:9px;}\n\
 .spTopicMultimedia, .spArticleContent .column-small,.top-anchor, \#spVeeseo {display:none;}\n\
 \#footer,  .module-box, .article-copyright, \n\
-.fussball, .spDivideNaviAd {display:none;}\n\
+.article-function-social-media, .fussball, .spDivideNaviAd {display:none;}\n\
 .spArticleContent .asset-list-box {display:none;}\n\
-.spArticleContent \#js-article-column {margin-top:-20px;}\n\
+.spArticleContent \#js-article-column {margin-top:-30px;}\n\
 \n\
 .grid-homepage .teaser.hp-first-article {width:860px !important;margin:auto !important;border-bottom:3px double #E6E6E6;}\n\
 </style>\n$0@
+s@ - @ &ndash; @g
 
 #s@class="spTopThema"@class="spTopThema" style="width:100%"@g
 #s@class="spRessortTeaserBox@style="width:100%" class="spRessortTeaserBox@g
@@ -144,7 +148,8 @@ body {padding:0px;font-size:12px !important;line-height:1.3em !important;}\n\
 FILTER: mediawiki Filter for wikipedia
 s@</head>@<style type="text/css">\n\
 body {background:\#fff !important;}\n\
-\#mw-page-base,  \#p-personal {display:none;}\n\
+\#bodyContent {font-size:21px;}\n\
+\#mw-page-base,  \#p-personal, \#siteSub {display:none;}\n\
 \#p-logo, \#p-navigation, \#p-Mitmachen,\n\
 \#p-tb, \#p-coll-print_export, \#p-interaction,\n\
 \#p-views, \#p-cactions, .wbc-editpage {display:none;}\n\
@@ -189,9 +194,20 @@ s@</head>@<style type="text/css">\n\
 [id^=NVBPlayer] {background:none !important;}\n\
 .golem-gallery2 {margin:35px auto 10px !important;}\n\
 .activity, .promos {display: none;}\n\
+.cluster-header p, .formatted p {font-size: 19px !important;line-height:27px;}\n\
+.cluster-header p {font-style:italic;}\n\
+.cluster-header {margin-bottom:0px;}\n\
+.formatted h3 {font-size: 21px;}\n\
+.list-articles h2 {font-size:19px;}\n\
+.list-articles p {font-size:17px;}\n\
+\#index-promo p, .list-articles p {font-size:17px;line-height:27px}\n\
 </style>\n$0@
 s@http://golem.ivwbox.de/cgi-bin/ivw/CP/G_WIRTSCHAFT?d=1343755271"@http://golem.ivwbox.de/cgi-bin/ivw/CP/G_WIRTSCHAFT?d=1343755271" style="display:none;"@g
 s@WIDTH=\\"1\\" HEIGHT=\\"1\\"@WIDTH=\\"1\\" HEIGHT=\\"1\\" STYLE=\\"display:none\\"@g
+s@ - @ &ndash; @g
+
+#\#screen p {font-size:19px;}\n\
+#s@"@&ldquo;@g
 
 
 #########################
